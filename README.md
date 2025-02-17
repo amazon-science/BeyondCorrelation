@@ -1,6 +1,6 @@
 ## BeyondCorrelation: The impact of human uncertainty in measuring the effectiveness of automatic evaluation and LLM-as-a-judge
 
-This is the implementation of our ArXiv preprint:
+This is the implementation of our paper accepted at ICLR 2025:
 
 [BeyondCorrelation: The impact of human uncertainty in measuring the effectiveness of automatic evaluation and LLM-as-a-judge](https://arxiv.org/pdf/2410.03775)
 
@@ -83,14 +83,13 @@ Please follow the [Notebook of Toy Example](examples/toy_example.ipynb).
 ## Citation
 If you use our tools in your project, please cite our work:
 ```
-@misc{elangovan2024correlationimpacthumanuncertainty,
-      title={Beyond correlation: The impact of human uncertainty in measuring the effectiveness of automatic evaluation and LLM-as-a-judge}, 
-      author={Aparna Elangovan and Jongwoo Ko and Lei Xu and Mahsa Elyasi and Ling Liu and Sravan Bodapati and Dan Roth},
-      year={2024},
-      eprint={2410.03775},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC},
-      url={https://arxiv.org/abs/2410.03775}, 
+@inproceedings{
+elangovan2025beyond,
+title={Beyond correlation: The impact of human uncertainty in measuring the effectiveness of automatic evaluation and {LLM}-as-a-judge},
+author={Aparna Elangovan and Lei Xu and Jongwoo Ko and Mahsa Elyasi and Ling Liu and Sravan Babu Bodapati and Dan Roth},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=E8gYIrbP00}
 }
 ```
 
